@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  html,
+  body {
+    @apply bg-stone-900 text-stone-300;
+  }
+
+  a {
+    @apply underline text-yellow-200 !important;
+  }
+}
